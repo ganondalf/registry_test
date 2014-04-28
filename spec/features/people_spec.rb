@@ -6,11 +6,19 @@ describe "the people index" do
     expect(page).to have_content 'Registry App'
   end
 
-  it 'should return the correct prefix to each person' do
-    Person.create(first_name: "Carolyn", last_name: "Ganon", age: 24, gender: "female", is_married: false)
+  it 'should add "Mrs." to a married female' do
     visit '/'
     expect(page).to have_content 'Ms. Carolyn Ganon'
   end
 
+  it 'should add "Mr." to all men' do
+    visit '/'
+    expect(page).to have_content 'Mrs. Michelle Ganon'
+  end
+
+  it 'should add "Mr." to all men' do
+    visit '/'
+    expect(page).to have_content 'Mr. Bill Ganon'
+  end
 
 end
