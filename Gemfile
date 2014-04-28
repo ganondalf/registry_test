@@ -55,4 +55,5 @@ group :development, :test do
   # gem 'rubocop'
   gem 'annotate'
   gem 'jasmine'
+  gem 'simplecov', '~> 0.7.1', :require => false
 end
