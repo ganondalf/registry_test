@@ -1,0 +1,44 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/CarolynGanon/dev/wdi/registry_app/app/helpers/application_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/CarolynGanon/dev/wdi/registry_app/app/controllers/people_controller.rb": [
+        1,
+        1,
+        2,
+        null,
+        null
+      ],
+      "/Users/CarolynGanon/dev/wdi/registry_app/app/controllers/application_controller.rb": [
+        1,
+        null,
+        null,
+        1,
+        null
+      ],
+      "/Users/CarolynGanon/dev/wdi/registry_app/app/models/person.rb": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        null,
+        0,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "timestamp": 1398693644
+  }
+}
