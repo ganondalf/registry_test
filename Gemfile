@@ -38,3 +38,21 @@ gem 'spring',        group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+group :development, :test do
+  # gem 'launchy'
+  gem 'capybara'
+  gem 'selenium-webdriver'
+  gem 'pry-rails'
+  gem 'rspec'
+  gem 'rspec-rails'
+  gem 'guard'
+  gem 'guard-rspec'
+  gem 'guard-bundler', require: false
+  gem 'terminal-notifier-guard'
+  gem 'shoulda-matchers'
+  gem 'rails-erd'
+  # gem 'factory_girl_rails'
+  # gem 'rubocop'
+  gem 'annotate'
+  gem 'jasmine'
+end
